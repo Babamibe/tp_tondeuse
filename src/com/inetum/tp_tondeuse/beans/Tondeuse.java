@@ -40,10 +40,18 @@ public class Tondeuse {
 	}
 	@Override
 	public String toString() {
-		return "Tondeuse [id=" + id + ", x=" + x + ", y=" + y + ", orientation=" + orientation + "]";
+		return "Tondeuse n°" + id + ": " + x + " " + y + " " + orientation;
 	}
 	public Tondeuse() {
 		super();
+	}
+	
+	
+	public Tondeuse(int x, int y, OrientationEnum orientation) {
+		super();
+		this.x = x;
+		this.y = y;
+		this.orientation = orientation;
 	}
 	public Tondeuse(int id, int x, int y, OrientationEnum orientation) {
 		super();

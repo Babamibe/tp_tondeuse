@@ -1,14 +1,14 @@
 package com.inetum.tp_tondeuse.beans;
 
 /**
- * une classe pelouse avec une limite largeur y et une limite longeur y
+ * une classe pelouse avec une limite longueur x et une limite largeur y
  * @author frup87694
  *
  */
 public class Pelouse {
 
-	int xmax;
-	int ymax;
+	private int xmax;
+	private int ymax;
 	
 	public Pelouse() {
 		super();
